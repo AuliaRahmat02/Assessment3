@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kontak</string>
+    <string name="belum_ada_kontak">Belum Ada Kontak</string>
+    <string name="nama_invalid">Silakan isi Nama</string>
+    <string name="nomor_invalid">Silakan isi Nomor</string>
+    <string name="notif_title">Kontak Penting</string>
+    <string name="notif_text">Kamu bisa melihat kontak penting disini</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Daftar Kontak Penting</string>
+</resources>

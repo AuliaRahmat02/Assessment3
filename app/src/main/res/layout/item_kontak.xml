@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Nama : "/>
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/TextView"
+        tools:text="Aulia Rahmat"/>
+
+    <TextView
+        android:id="@+id/TextViewNomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Nomor : "/>
+
+    <TextView
+        android:id="@+id/nomorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/namaTextView"
+        app:layout_constraintStart_toEndOf="@id/TextViewNomor"
+        tools:text="081287468573"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigasi"
+    app:startDestination="@id/inputFragment">
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="org.d3if2074.kontak.input.InputFragment"
+        android:label="Input Kontak"
+        tools:layout="@layout/fragment_input" >
+        <action
+            android:id="@+id/action_inputFragment_to_kontakFragment"
+            app:destination="@id/kontakFragment" />
+        <action
+            android:id="@+id/action_inputFragment_to_pentingFragment3"
+            app:destination="@id/pentingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kontakFragment"
+        android:name="org.d3if2074.kontak.daftarkontak.KontakFragment"
+        tools:layout="@layout/fragment_kontak"
+        android:label="Kontak" />
+    <fragment
+        android:id="@+id/pentingFragment"
+        tools:layout="@layout/fragment_kontakpenting"
+        android:name="org.d3if2074.kontak.kontakpenting.PentingFragment"
+        android:label="Kontak Penting" />
+</navigation>
